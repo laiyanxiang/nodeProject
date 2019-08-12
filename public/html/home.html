@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse ">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">   
+            <a class="navbar-brand" href="#">Brand</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">学生管理</a></li>
+                <li><a href="#">招生管理</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a href="#">退出登录</a></li>
+                </ul> 
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main">
+        <div class="sliderNav col-md-2">
+            <ul class="nav nav-pills nav-stacked ">
+                <li role="presentation" class="active"><a href="javascript:;">首页</a></li>
+                <li role="presentation" ><a href="javascript:;">商品列表</a></li>
+                <li role="presentation"><a href="javascript:;">添加商品</a></li>
+                <li role="presentation"><a href="javascript:;">用户</a></li>
+            </ul>
+        </div>
+        <div class="main_container col-md-10">
+            
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/wangeditor@3.1.1/release/wangEditor.min.js"></script>
+<script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+<script src="../js/js/content/home.js"></script>
+<script src="../js/js/content/goodsList.js"></script>
+<script src="../js/js/content/addGoods.js"></script>
+<script src="../js/js/content/goodsRemove.js"></script>
+<script src="../js/js/content/pageChange.js"></script>
+<script src="../js/js/content/user.js"></script>
+<script src="../js/js/home/sliderNav.js"></script>
